@@ -14,10 +14,10 @@ public class ConfirmAlerts {
 		 driver.manage().window().maximize();
 		 driver.manage().deleteAllCookies();
 driver.findElement(By.xpath("//button[@id=\"confirmBox\"]")).click();
-Thread.sleep(5000);
+Thread.sleep(6000);
 Alert alert=driver.switchTo().alert();
 alert.accept();
-Thread.sleep(5000);
+Thread.sleep(6000);
 driver.close();
 
 	}
