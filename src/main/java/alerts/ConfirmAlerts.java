@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class ConfirmAlert {
+public class ConfirmAlerts {
 	public static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
@@ -14,10 +14,10 @@ public class ConfirmAlert {
 		 driver.manage().window().maximize();
 		 driver.manage().deleteAllCookies();
 driver.findElement(By.xpath("//button[@id=\"confirmBox\"]")).click();
-Thread.sleep(2000);
+Thread.sleep(5000);
 Alert alert=driver.switchTo().alert();
 alert.accept();
-Thread.sleep(2000);
+Thread.sleep(5000);
 driver.close();
 
 	}
