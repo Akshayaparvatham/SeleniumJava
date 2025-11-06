@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LoginSuite">
+<parameter name="browserType" value="Chrome"/>
+<parameter name="url" value="https://srasysacademy.com/login"/>
+<parameter name="username" value="akshaya.parvatham27@gmail.com"/>
+<parameter name="password" value="Akki@1234"/>
+  <test  name="LoginTest">
+    <classes>
+      <class name="testNGconcepts.Logintest"/>
+    </classes>
+  </test> <!-- LoginTest -->
+</suite> <!-- LoginSuite -->

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="10" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-31T23:19:51 IST" name="Suite" finished-at="2025-10-31T23:19:51 IST" duration-ms="68">
+    <groups>
+      <group name="smoke">
+        <method signature="GroupsDemo.m6()[pri:6, instance:testNGconcepts.GroupsDemo@73a1e9a9]" name="m6" class="testNGconcepts.GroupsDemo"/>
+        <method signature="GroupsDemo.m10()[pri:10, instance:testNGconcepts.GroupsDemo@73a1e9a9]" name="m10" class="testNGconcepts.GroupsDemo"/>
+      </group> <!-- smoke -->
+      <group name="Regression">
+        <method signature="GroupsDemo.m1()[pri:1, instance:testNGconcepts.GroupsDemo@73a1e9a9]" name="m1" class="testNGconcepts.GroupsDemo"/>
+        <method signature="GroupsDemo.m2()[pri:2, instance:testNGconcepts.GroupsDemo@73a1e9a9]" name="m2" class="testNGconcepts.GroupsDemo"/>
+        <method signature="GroupsDemo.m3()[pri:3, instance:testNGconcepts.GroupsDemo@73a1e9a9]" name="m3" class="testNGconcepts.GroupsDemo"/>
+        <method signature="GroupsDemo.m5()[pri:5, instance:testNGconcepts.GroupsDemo@73a1e9a9]" name="m5" class="testNGconcepts.GroupsDemo"/>
+        <method signature="GroupsDemo.m6()[pri:6, instance:testNGconcepts.GroupsDemo@73a1e9a9]" name="m6" class="testNGconcepts.GroupsDemo"/>
+        <method signature="GroupsDemo.m10()[pri:10, instance:testNGconcepts.GroupsDemo@73a1e9a9]" name="m10" class="testNGconcepts.GroupsDemo"/>
+      </group> <!-- Regression -->
+      <group name="sanity">
+        <method signature="GroupsDemo.m2()[pri:2, instance:testNGconcepts.GroupsDemo@73a1e9a9]" name="m2" class="testNGconcepts.GroupsDemo"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-10-31T23:19:51 IST" name="Test" finished-at="2025-10-31T23:19:51 IST" duration-ms="68">
+      <class name="testNGconcepts.GroupsDemo">
+        <test-method signature="m1()[pri:1, instance:testNGconcepts.GroupsDemo@73a1e9a9]" started-at="2025-10-31T23:19:51 IST" name="m1" finished-at="2025-10-31T23:19:51 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m2()[pri:2, instance:testNGconcepts.GroupsDemo@73a1e9a9]" started-at="2025-10-31T23:19:51 IST" name="m2" finished-at="2025-10-31T23:19:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m3()[pri:3, instance:testNGconcepts.GroupsDemo@73a1e9a9]" started-at="2025-10-31T23:19:51 IST" name="m3" finished-at="2025-10-31T23:19:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method signature="m5()[pri:5, instance:testNGconcepts.GroupsDemo@73a1e9a9]" started-at="2025-10-31T23:19:51 IST" name="m5" finished-at="2025-10-31T23:19:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m5 -->
+        <test-method signature="m6()[pri:6, instance:testNGconcepts.GroupsDemo@73a1e9a9]" started-at="2025-10-31T23:19:51 IST" name="m6" finished-at="2025-10-31T23:19:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m6 -->
+        <test-method signature="m10()[pri:10, instance:testNGconcepts.GroupsDemo@73a1e9a9]" started-at="2025-10-31T23:19:51 IST" name="m10" finished-at="2025-10-31T23:19:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m10 -->
+      </class> <!-- testNGconcepts.GroupsDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

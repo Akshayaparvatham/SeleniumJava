@@ -1,0 +1,21 @@
+package locators;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Locatorsdemo {
+public static WebDriver driver;
+	public static void main(String[] args) throws InterruptedException {
+		WebDriverManager.chromedriver().setup();
+		driver=new ChromeDriver();
+		driver.get("https://omayo.blogspot.com/");
+driver.findElement(By.className("gsc-search-button")).click();
+Thread.sleep(3000);
+driver.close();
+	}
+
+}
+
